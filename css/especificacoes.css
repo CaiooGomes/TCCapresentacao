@@ -1,0 +1,30 @@
+.especificacoestecnicas{
+    
+    margin-left: 55px;
+    display: flex;
+    float: left;
+    flex-direction: column;
+    width: 100%;
+    animation: tituloespecificacoesaparecer 1s forwards;
+}
+.tituloespecificacoes{
+    font-size: 30px;
+    width: 100%;
+    color: white;
+    border-bottom: 2px white solid;
+
+}
+.textoespecificacoes{
+    display: flex;
+    float: left;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.833);
+}
+@keyframes tituloespecificacoesaparecer{
+    0%{
+        margin-left: -1500px;
+    }
+    100%{
+        margin-left: 55px;
+    }
+}
