@@ -1,0 +1,56 @@
+.apresentacao{
+    margin-top: 100px;
+    margin-left: 55px;
+    width: 100%;
+}
+
+.esquerdaapresentacao{
+    width: 49%;
+    float: left;
+}
+.esquerdaapresentacao h1{
+    font-size: 40px;
+    color: white;
+
+}
+.esquerdaapresentacao h3{
+    font-size: 25px;
+    color: grey;
+    margin-top: -20px;
+}
+.direitaapresentacao{
+    font-size: 15px;
+    color: grey;
+}
+
+.redessociais{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.redessociais a{
+    background-color: grey;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: all 0.1s ease;
+}
+.redessociais a:hover{
+    border-radius: 15px;
+    box-shadow: grey 0px 0px 10px 2px;
+    scale: 1.1;
+}
+.direitaapresentacao{
+    float: right;
+    width: 49%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.direitaapresentacao img{
+    height: max-content;
+}
